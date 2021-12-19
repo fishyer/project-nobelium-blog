@@ -1,16 +1,16 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  title: "CRAIGARY觉论 | The Sense of Design & Life. | Issei's Blog",
+  author: 'Issei',
+  email: 'ryouissei@outlook.com',
+  link: 'https://blog.ryouissei.com/',
+  description: '「觉论」是Issei发起的个人博客，具体可以诠释为「Sense of Design & Life」，旨在记录对世界的观察、审美、思考方式的沉淀和转变。',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2017, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
