@@ -70,7 +70,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-              <svg width="100%" height="100%" viewBox="0 0 2112 2112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+              <svg width="100%" height="100%" viewBox="0 0 2112 2112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlspace="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-8537.5,-3168.75)">
         <g id="favicon" transform="matrix(5.55556,0,0,5.55556,8537.5,3168.75)">
             <rect x="0" y="0" width="380" height="380" style="fill:none;"/>
@@ -85,7 +85,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         </g>
     </g>
 </svg>
-
+    
               </div>
             </a>
           </Link>
