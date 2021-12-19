@@ -1,9 +1,9 @@
 const BLOG = {
-  title: "CRAIGARY觉论 | The Sense of Design & Life. | Issei's Blog",
+  title: "觉论",
   author: 'Issei',
   email: 'ryouissei@outlook.com',
   link: 'https://blog.ryouissei.com/',
-  description: '「觉论」是Issei发起的个人博客，具体可以诠释为「Sense of Design & Life」，旨在记录对世界的观察、审美、思考方式的沉淀和转变。',
+  description: "The Sense of Design & Life. | Issei's Blog",
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
