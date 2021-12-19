@@ -37,18 +37,18 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
-    // gitalkConfig: {
-    //   repo: '', // The repository of store comments
-    //   owner: '',
-    //   admin: [],
-    //   clientID: '',
-    //   clientSecret: '',
-    //   distractionFreeMode: false
-    // },
-    // utterancesConfig: {
-    //   repo: ''
-    // },
+    provider: '', // leave it empty if you don't need any comment plugin
+    gitalkConfig: {
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [],
+      clientID: '',
+      clientSecret: '',
+      distractionFreeMode: false
+    },
+    utterancesConfig: {
+      repo: ''
+    },
     cusdisConfig: {
       appId: 'd3cff456-7622-4122-b0f5-605b5e02afc9', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
