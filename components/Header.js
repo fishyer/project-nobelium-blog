@@ -85,7 +85,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
         </g>
     </g>
 </svg>
-    
               </div>
             </a>
           </Link>
