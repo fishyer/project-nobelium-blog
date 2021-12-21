@@ -12,14 +12,14 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2017, // If leave this empty, current year will be used.
   postsPerPage: 12,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
       ogImageGenerateURL: "https://og-image-craigary.vercel.app/**%E8%A7%89%E8%AE%BA**%20%20Issei's%20Blog.png?theme=dark&md=1&fontSize=175px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg&widths=auto&heights=auto", // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/Lyicheng',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion', 'ryouissei', 'rss'],
     googleSiteVerification: 'EOyOIBvRPl1U1dXPNPVTTCfBLDEf6Kty9iOCtzPDKDM' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
