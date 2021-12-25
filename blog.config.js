@@ -1,14 +1,14 @@
 const BLOG = {
-  title: "觉论",
+  title: "觉论 | The Sense of Design & Life",
   author: 'Issei',
   email: 'ryouissei@outlook.com',
   link: 'https://blog.ryouissei.com/',
-  description: "The Sense of Design & Life. | Issei's Blog",
+  description: "Issei's Blog",
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#fffff9', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#18181B', // use hex value, don't forget '#'
+  lightBackground: '#FDFDF3', // use hex value, don't forget '#' e.g #fffefc
+  darkBackground: '#0F0921', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2017, // If leave this empty, current year will be used.
   postsPerPage: 12,
