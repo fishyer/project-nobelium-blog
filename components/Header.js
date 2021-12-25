@@ -8,7 +8,7 @@ const NavBar = () => {
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: locale.NAV.RSS, to: '/feed', show: true },
+    { id: 2, name: locale.NAV.RSS, to: '/subscribe', show: true },
     { id: 3, name: locale.NAV.FRIENDS, to: '/friends', show: true },
     { id: 4, name: locale.NAV.PORTFOLIO, to: 'http://ryouissei.com/', show: true },
     { id: 5, name: locale.NAV.SEARCH, to: '/search', show: true }
