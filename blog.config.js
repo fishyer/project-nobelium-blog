@@ -16,10 +16,10 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-      ogImageGenerateURL: "https://og-image-craigary.vercel.app/**%E8%A7%89%E8%AE%BA**%20%20Issei's%20Blog.png?theme=dark&md=1&fontSize=175px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg&widths=auto&heights=auto", // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/Lyicheng',
+      ogImageGenerateURL: "https://og-image-craigary.vercel.app/Issei's%20blog.png?theme=dark&md=1&fontSize=225px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg&widths=auto", // The link to generate OG image, don't end with a slash
+  socialLink: 'https://twitter.com/ryou_issei',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion', 'ryouissei', 'rss'],
+    keywords: ['Blog', 'Website', 'Notion', 'ryouissei', 'rss', '博客', 'RSS订阅', '设计', '日本', '互联网'],
     googleSiteVerification: 'EOyOIBvRPl1U1dXPNPVTTCfBLDEf6Kty9iOCtzPDKDM' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
