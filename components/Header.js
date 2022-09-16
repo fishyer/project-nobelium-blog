@@ -2,17 +2,21 @@ import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
+import crypto from 'crypto'
+
+const md5 = (str) => '/' + crypto.createHash('md5').update(str).digest('hex')
 
 const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: locale.NAV.RSS, to: '/subscribe', show: true },
-    { id: 3, name: locale.NAV.FRIENDS, to: '/friends', show: true },
-    { id: 4, name: locale.NAV.PORTFOLIO, to: 'https://ryouissei.com/', show: true },
-    { id: 5, name: locale.NAV.ART, to: '/Art_appreciation', show: true },
-    { id: 6, name: locale.NAV.SEARCH, to: '/search', show: true }
+    { id: 4, name: '星标', to: '/tag/Star', show: true },
+    { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true },
+    { id: 1, name: '简介', to: md5('Me-自我介绍'), show: BLOG.showAbout },
+    { id: 2, name: '友链', to: md5('Friends-友链'), show: true },
+    { id: 6, name: '订阅', to: md5('Subscribe-订阅'), show: true },
+    { id: 7, name: '知乎', to: 'https://www.zhihu.com/people/fishyer2850/posts', show: true },
+    { id: 5, name: locale.NAV.NOTION, to: 'https://fishyer.notion.site/31dc12413f184f999cc981ae769e94e1?v=472f271f6e1d44e8b98e534321819b04', show: true }
   ]
   return (
     <div className="flex-shrink-0">
@@ -80,7 +84,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <rect width="24" height="24" rx="4" ry="4" fill="url(#paint0_radial)" />
                   <defs>
                     <radialGradient
                       id="paint0_radial"
