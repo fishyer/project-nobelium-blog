@@ -16,7 +16,8 @@ const NavBar = () => {
     { id: 2, name: '友链', to: md5('Friends-友链'), show: true },
     { id: 6, name: '订阅', to: md5('Subscribe-订阅'), show: true },
     { id: 7, name: '知乎', to: 'https://www.zhihu.com/people/fishyer2850/posts', show: true },
-    { id: 5, name: locale.NAV.NOTION, to: 'https://fishyer.notion.site/31dc12413f184f999cc981ae769e94e1?v=472f271f6e1d44e8b98e534321819b04', show: true }
+    { id: 8, name: locale.NAV.LOGSEQ, to: 'https://logseq.fishyer.com', show: true },
+    { id: 5, name: locale.NAV.NOTION, to: 'https://notion.fishyer.com', show: true }
   ]
   return (
     <div className="flex-shrink-0">

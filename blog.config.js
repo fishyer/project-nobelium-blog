@@ -3,7 +3,7 @@ const BLOG = {
   author: 'fishyer',
   email: 'yutianran666@gmail.com',
   link: 'https://blog.fishyer.com',
-  description: '效能工具控，全栈工程师，量化交易者，终生学习者',
+  description: '效能工具控，全栈工程师，量化交易员，终生学习者',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'serif', // ['sans-serif', 'serif']
